@@ -2,20 +2,17 @@
 import { sleep } from 'k6';
 import { error_check } from '../check/check.js';
 import { scenario } from 'k6/execution';
-import { DownloadFile, GetProfile, PostProfile, PostProfile_2, PostProfile_3, UploadFile } from '../api/example.js';
+import { WorkD } from '../api/WorkD.js';
+import { WorkD_Login } from '../api/WorkD_Login.js';
+//import { DownloadFile, GetProfile, PostProfile, PostProfile_2, PostProfile_3, UploadFile } from '../api/example.js';
 
 
 
 //============================================================================
 
 export default function () {    //เรียกใช้ API ใน export default function
-  //response = GetProfile()
-  //response = PostProfile()
-  //response = PostProfile_2()
-  //response = PostProfile_3(scenario)
-  //response = DownloadFile()
-  //response = UploadFile()
-  //response = UploadFile_2()
+  response = WorkD()
+  //response = WorkD_Login()
 
 
   error_check(response);
@@ -111,7 +108,7 @@ if (scenariox == 1) {
       timeout: '300s'
     },
     insecureSkipTLSVerify: true,
-    discardResponseBodies: true,
+    discardResponseBodies: false,
     scenarios: {
       contacts: {
         executor: 'per-vu-iterations',
