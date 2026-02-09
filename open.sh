@@ -6,7 +6,7 @@
 ##########################################################################
                      API="WorkD" 
                      google_sheet="https://docs.google.com/spreadsheets/d/1Rqou3bhEcSnvQ1i88Jso2Xwa9XD41cZ_Gl7JCdjcEJA/edit?gid=836114849#gid=836114849" 
-                     id="3"                 #เปลี่ยน id ทุกครั้งที่ยิง
+                     id="4"                 #เปลี่ยน id ทุกครั้งที่ยิง
                      user="10000";            #จำนวนผู้ใช้งาน
                      duration="60";         #วินาที
                      scenario="3"           #scenario="1" ยิงเเบบกำหนด request (duration ได้แค่ 1 วินาที)
