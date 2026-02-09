@@ -6,9 +6,9 @@
 ##########################################################################
                      API="WorkD" 
                      google_sheet="https://docs.google.com/spreadsheets/d/1Rqou3bhEcSnvQ1i88Jso2Xwa9XD41cZ_Gl7JCdjcEJA/edit?gid=836114849#gid=836114849" 
-                     id="12"                 #เปลี่ยน id ทุกครั้งที่ยิง
-                     user="15000";            #จำนวนผู้ใช้งาน
-                     duration="60";         #วินาที
+                     id="14"                 #เปลี่ยน id ทุกครั้งที่ยิง
+                     user="20000";            #จำนวนผู้ใช้งาน
+                     duration="600";         #วินาที
                      scenario="3"           #scenario="1" ยิงเเบบกำหนด request (duration ได้แค่ 1 วินาที)
                      cid="1"                #scenario="2" ยิงเเบบกำหนด VUs  (กำหนดว่า user x คน ใช้ระบบ x วินาที)
                                             #scenario="3" ยิงเเบบกำหนด request แต่ไม่แม่นยำ (duration กี่วินาทีก็ได้)
